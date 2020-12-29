@@ -1,0 +1,99 @@
+/*|| GENERAL*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+/*|| HEADER*/
+header {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.fab.fa-free-code-camp {
+    font-size: 3rem;
+    margin-left: 1rem;
+    color: white;
+}
+#navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav-link {
+    display: block;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover {
+    background-color: red;
+}
+.nav-link:visited {
+    color: white;
+}
+/*Adjust for fixed header*/
+#welcome-section, #projects, #contact {
+    scroll-margin-top: 3rem;
+}
+/*|| MAIN*/
+/*Welcome section*/
+#welcome-section {
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#welcome-div {
+    width: 70%;
+    margin: 0 auto;
+}
+/*Projects section*/
+#projects {
+    background-color: wheat;
+    padding: 2rem;
+}
+#projects h2 {
+    text-align: center;
+    padding: 0 0 2rem 0;
+}
+.project-grid {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2rem;
+}
+.project-tile {
+
+}
+.image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+.project-title {
+    text-align: center;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
+/*Contact section*/
+#contact {
+    height: 90vh;
+    background-color: burlywood;
+}
