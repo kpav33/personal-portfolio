@@ -67,7 +67,7 @@ header .fab.fa-free-code-camp {
 /*Projects section*/
 #projects {
     background-color: #433046;
-    padding: 2rem;
+    padding: 1rem 0 2rem 0;
 }
 #projects h2 {
     text-align: center;
@@ -110,7 +110,7 @@ header .fab.fa-free-code-camp {
     justify-content: space-between;
 }
 #social {
-    width: 90%;
+    width: 70%;
     padding: 1rem 0 2rem 0;
 }
 /*Social account icons*/
@@ -118,7 +118,7 @@ header .fab.fa-free-code-camp {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .social-link {
@@ -140,33 +140,35 @@ header .fab.fa-free-code-camp {
 #form h3 {
     font-size: 1.5rem;
     text-align: center;
+    padding-top: 1rem;
 }
 #form form {
     display: flex;
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 0.5rem;
 }
 label {
     padding: 0.5rem 0;
+    font-size: 1.2rem;
 }
 input {
     padding: 0.5rem;
     border-radius: 0.2rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 textarea {
     padding: 0.5rem;
     border-radius: 0.1rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 input[type="submit"] {
     width: 30%;
-    margin: 0.5rem auto 0 auto;
+    margin: 1rem auto;
     padding: 0.2rem;
     background-color: #4b5d67;
     color: white;
+    border: none;
 }
 input[type="submit"]:hover {
     background-color: #59405c;
@@ -210,6 +212,9 @@ a:link {
     #navbar {
         width: 100%;
     }
+    #welcome-section h1 {
+        font-size: 2.5rem;
+    }
     #projects {
         padding: 0rem;
     }
@@ -225,6 +230,10 @@ a:link {
     }
     #social {
         padding: 1rem;
+        width: 90%;
+    }
+    #social ul li {
+        padding: 0.4rem;
     }
     #form {
         width: 90%;
