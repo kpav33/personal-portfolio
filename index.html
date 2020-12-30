@@ -23,49 +23,87 @@
         </header>
         <main>
             <section id="welcome-section">
-                <h1>Greetings and salutations</h1>
-                <p>my name Jeff</p>
+                <h1>Hey I am John Doe</h1>
+                <p><em>a web developer</em></p>
             </section>
             <section id="projects">
                 <h2>My projects</h2>
                 <div class="project-grid">
                     <div class="project-tile">
-                        <a href="#"><img src="img/tribute-img.jpg" alt="project-image" class="image">
+                        <a href="https://kpav33.github.io/tribute-page/"><img src="img/tribute-img.jpg" alt="project-image" class="image">
                         <p class="project-title">
-                            Project title
+                            Tribute page
                         </p></a>
                     </div>
                     <div class="project-tile">
-                        <a><img src="img/survey-form-img.jpg" alt="project-image" class="image">
+                        <a href="https://kpav33.github.io/survey-form/"><img src="img/survey-form-img.jpg" alt="project-image" class="image">
                         <p class="project-title">
-                            Project title
+                            Survey form
                         </p></a>
                     </div>
                     <div class="project-tile">
-                        <a><img src="img/product-landing-img.jpg" alt="project-image" class="image">
+                        <a href="https://kpav33.github.io/product-landing-page/"><img src="img/product-landing-img.jpg" alt="project-image" class="image">
                         <p class="project-title">
-                            Project title
+                            Product landing page
                         </p></a>
                     </div>
                     <div class="project-tile">
-                        <a><img src="img/technical-documentation-img.jpg" alt="project-image" class="image">
+                        <a href="https://kpav33.github.io/technical-documentation-page/"><img src="img/technical-documentation-img.jpg" alt="project-image" class="image">
                         <p class="project-title">
-                            Project title
+                            Technical documentation page
                         </p></a>
                     </div>
                 </div>
             </section>
             <section id="contact">
-                <div id="social">
-                    
-                </div>
-                <div id="form">
-
+                <h2>Connect with me</h2>
+                <div id="contact-flex">
+                    <div id="social">
+                        <ul>
+                            <li><a class="social-link" href="https://www.facebook.com/">
+                                <i class="fab fa-facebook-square"></i>
+                                Facebook
+                            </a></li>
+                            <li><a class="social-link" id="profile-link" target="_blank" href="https://github.com/kpav33">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a></li>
+                            <li><a class="social-link" href="https://twitter.com/">
+                                <i class="fab fa-twitter"></i>
+                                Twitter
+                            </a></li>
+                            <li><a class="social-link" href="mailto: example@example.com">
+                                <i class="far fa-envelope"></i>
+                                Email
+                            </a></li>
+                            <li><a class="social-link" href="tel:111111111">
+                                <i class="fas fa-phone-alt"></i>
+                                Telephone
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div id="form">
+                        <h3>Send me a message</h3>
+                        <form>
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" name="name" placeholder="Name">
+                            <label for="email">Your email address</label>
+                            <input type="email" id="email" name="email" placeholder="Email address">
+                            <label for="message">What would you like to let me know?</label>
+                            <textarea id="message" name="message" rows="5" columns="60" placeholder="Write your message here"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
                 </div>
             </section>
         </main>
         <footer>
-
+            <p>This is a fake portfolio, created for the purpose of freeCodeCamp project.</p>
+            <p>
+                <i class="far fa-copyright"></i>
+                Created for freeCodeCamp
+                <i class="fab fa-free-code-camp"></i>
+            </p>
         </footer>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
