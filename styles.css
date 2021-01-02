@@ -20,6 +20,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 2;
 }
 header .fab.fa-free-code-camp {
     font-size: 3rem;
