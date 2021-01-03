@@ -1,4 +1,11 @@
 /*|| GENERAL*/
+:root {
+    --bck-one: #322f3d;
+    --nav-hover: #87556f;
+    --bck-two: #433046;
+    --bck-three: #4b5d67;
+    --submit-hover: #59405c;
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +13,8 @@
 }
 html {
     scroll-behavior: smooth;
+}
+body {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -13,7 +22,7 @@ html {
 }
 /*|| HEADER*/
 header {
-    background-color: #322f3d;
+    background-color: var(--bck-one);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +47,7 @@ header .fab.fa-free-code-camp {
     font-size: 1.3rem;
 }
 .nav-link:hover {
-    background-color: #87556f;
+    background-color: var(--nav-hover);
 }
 .nav-link:visited {
     color: white;
@@ -62,16 +71,16 @@ header .fab.fa-free-code-camp {
     font-size: 3.5rem;
 }
 span {
-    color: #433046;
+    color: var(--bck-two);
 }
 #welcome-section p {
     padding-top: 1rem;
     font-size: 2rem;
-    color: #433046;
+    color: var(--bck-two);
 }
 /*Projects section*/
 #projects {
-    background-color: #433046;
+    background-color: var(--bck-two);
     padding: 1rem 0 2rem 0;
 }
 #projects h2 {
@@ -102,14 +111,14 @@ span {
 }
 .project-title {
     text-align: center;
-    background-color: #4b5d67;
+    background-color: var(--bck-three);
     padding: 1rem;
     color: white;
     border-radius: 0 0 0.5rem 0.5rem;
 }
 /*Contact section*/
 #contact {
-    background-color: #4b5d67;
+    background-color: var(--bck-three);
 }
 #contact h2 {
     text-align: center;
@@ -143,7 +152,7 @@ span {
     transition: top ease 0.5s;
 }
 .social-link:hover {
-    color: #433046;
+    color: var(--bck-two);
     top: -5px;
 }
 /*Contact form*/
@@ -182,7 +191,7 @@ input[type="submit"] {
     width: 30%;
     margin: 1rem auto;
     padding: 0.5rem;
-    background-color: #4b5d67;
+    background-color: var(--bck-three);
     color: white;
     border: none;
     position: relative;
@@ -190,14 +199,14 @@ input[type="submit"] {
     transition: top ease 0.5s;
 }
 input[type="submit"]:hover {
-    background-color: #59405c;
+    background-color: var(--submit-hover);
     cursor: pointer;
     top: -2px;
 }
 /*|| FOOTER*/
 footer {
-    background-color: #322f3d;
-    border-top: 5px solid #87556f;
+    background-color: var(--bck-one);
+    border-top: 5px solid var(--nav-hover);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
